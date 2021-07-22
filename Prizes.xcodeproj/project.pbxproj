@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		195BC53526A888EC0054B4A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BC53426A888EC0054B4A7 /* AppDelegate.swift */; };
+		195BC53726A888EC0054B4A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BC53626A888EC0054B4A7 /* SceneDelegate.swift */; };
+		195BC53E26A888EE0054B4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195BC53D26A888EE0054B4A7 /* Assets.xcassets */; };
+		195BC54126A888EE0054B4A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195BC53F26A888EE0054B4A7 /* LaunchScreen.storyboard */; };
+		195BC54926A889E10054B4A7 /* PrizesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BC54826A889E10054B4A7 /* PrizesListViewController.swift */; };
+		195BC55226A897850054B4A7 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BC55126A897850054B4A7 /* R.generated.swift */; };
+		195BC55426A897B20054B4A7 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BC55326A897B20054B4A7 /* TypeAlias.swift */; };
+		195BC55626A898760054B4A7 /* PrizesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BC55526A898760054B4A7 /* PrizesView.swift */; };
+		195BC55826A89A480054B4A7 /* PrizesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BC55726A89A480054B4A7 /* PrizesTableViewCell.swift */; };
+		195BC55B26A89A980054B4A7 /* UITableView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BC55A26A89A980054B4A7 /* UITableView + Extensions.swift */; };
+		195BC55D26A89B1F0054B4A7 /* PrizesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BC55C26A89B1F0054B4A7 /* PrizesViewModel.swift */; };
+		195BC56026A89DF80054B4A7 /* Aileron-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 195BC55F26A89DF80054B4A7 /* Aileron-Bold.otf */; };
+		195BC56226A89E4B0054B4A7 /* Aileron-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 195BC56126A89E4B0054B4A7 /* Aileron-Black.otf */; };
+		195BC56426A89E670054B4A7 /* Aileron-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 195BC56326A89E670054B4A7 /* Aileron-Regular.otf */; };
+		195BC56626A89F4D0054B4A7 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BC56526A89F4D0054B4A7 /* UIView + Extension.swift */; };
+		195BC56826A8A2B50054B4A7 /* UITableViewCell + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BC56726A8A2B50054B4A7 /* UITableViewCell + Extension.swift */; };
+		195BC57826A8C5250054B4A7 /* Prize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BC57726A8C5250054B4A7 /* Prize.swift */; };
+		197701E126A8CB4B000D66D0 /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197701E026A8CB4B000D66D0 /* UIStackView + Extension.swift */; };
+		197701E326A8CBC2000D66D0 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197701E226A8CBC2000D66D0 /* DataBaseManager.swift */; };
+		197701E526A8CBE9000D66D0 /* AddingNewPrizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197701E426A8CBE9000D66D0 /* AddingNewPrizeViewController.swift */; };
+		197701E726A8CC12000D66D0 /* AddingNewPrizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197701E626A8CC12000D66D0 /* AddingNewPrizeView.swift */; };
+		1995B74226A942EE0026D9C6 /* ChoosingPrize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995B74126A942EE0026D9C6 /* ChoosingPrize.swift */; };
+		1995B74426A946660026D9C6 /* WarningAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995B74326A946660026D9C6 /* WarningAlertView.swift */; };
+		1995B74826A95FE60026D9C6 /* IdentificationCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995B74726A95FE60026D9C6 /* IdentificationCode.swift */; };
+		33F98D09AD291702573F0B7C /* Pods_Prizes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C4C333D93A34C245CC9C87 /* Pods_Prizes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04C4C333D93A34C245CC9C87 /* Pods_Prizes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prizes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		195BC53126A888EC0054B4A7 /* Prizes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prizes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		195BC53426A888EC0054B4A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		195BC53626A888EC0054B4A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		195BC53D26A888EE0054B4A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		195BC54026A888EE0054B4A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		195BC54226A888EE0054B4A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195BC54826A889E10054B4A7 /* PrizesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizesListViewController.swift; sourceTree = "<group>"; };
+		195BC55126A897850054B4A7 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		195BC55326A897B20054B4A7 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		195BC55526A898760054B4A7 /* PrizesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizesView.swift; sourceTree = "<group>"; };
+		195BC55726A89A480054B4A7 /* PrizesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizesTableViewCell.swift; sourceTree = "<group>"; };
+		195BC55A26A89A980054B4A7 /* UITableView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + Extensions.swift"; sourceTree = "<group>"; };
+		195BC55C26A89B1F0054B4A7 /* PrizesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizesViewModel.swift; sourceTree = "<group>"; };
+		195BC55F26A89DF80054B4A7 /* Aileron-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Bold.otf"; sourceTree = "<group>"; };
+		195BC56126A89E4B0054B4A7 /* Aileron-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Black.otf"; sourceTree = "<group>"; };
+		195BC56326A89E670054B4A7 /* Aileron-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Regular.otf"; sourceTree = "<group>"; };
+		195BC56526A89F4D0054B4A7 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		195BC56726A8A2B50054B4A7 /* UITableViewCell + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell + Extension.swift"; sourceTree = "<group>"; };
+		195BC57726A8C5250054B4A7 /* Prize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prize.swift; sourceTree = "<group>"; };
+		197701E026A8CB4B000D66D0 /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
+		197701E226A8CBC2000D66D0 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		197701E426A8CBE9000D66D0 /* AddingNewPrizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingNewPrizeViewController.swift; sourceTree = "<group>"; };
+		197701E626A8CC12000D66D0 /* AddingNewPrizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingNewPrizeView.swift; sourceTree = "<group>"; };
+		1995B74126A942EE0026D9C6 /* ChoosingPrize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingPrize.swift; sourceTree = "<group>"; };
+		1995B74326A946660026D9C6 /* WarningAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningAlertView.swift; sourceTree = "<group>"; };
+		1995B74726A95FE60026D9C6 /* IdentificationCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificationCode.swift; sourceTree = "<group>"; };
+		56FAEFCDBB96530C6C4B67BA /* Pods-Prizes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prizes.debug.xcconfig"; path = "Target Support Files/Pods-Prizes/Pods-Prizes.debug.xcconfig"; sourceTree = "<group>"; };
+		A3F0B4D543904A03866BCDD1 /* Pods-Prizes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prizes.release.xcconfig"; path = "Target Support Files/Pods-Prizes/Pods-Prizes.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		195BC52E26A888EC0054B4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F98D09AD291702573F0B7C /* Pods_Prizes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195BC52826A888EC0054B4A7 = {
+			isa = PBXGroup;
+			children = (
+				195BC53326A888EC0054B4A7 /* Prizes */,
+				195BC53226A888EC0054B4A7 /* Products */,
+				78046C9DE7CE8CDC61484384 /* Pods */,
+				38ED26747BBCF783CC916989 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		195BC53226A888EC0054B4A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				195BC53126A888EC0054B4A7 /* Prizes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		195BC53326A888EC0054B4A7 /* Prizes */ = {
+			isa = PBXGroup;
+			children = (
+				1995B74B26A97E1C0026D9C6 /* View */,
+				1995B74A26A97DDF0026D9C6 /* AdditionOfNewPrize */,
+				1995B74926A97DC90026D9C6 /* ListOfPrizes */,
+				197701E826A8CC8B000D66D0 /* Model */,
+				195BC55926A89A750054B4A7 /* Extensions */,
+				195BC54A26A88A220054B4A7 /* SupportingFiles */,
+				195BC53426A888EC0054B4A7 /* AppDelegate.swift */,
+				195BC53626A888EC0054B4A7 /* SceneDelegate.swift */,
+				195BC53F26A888EE0054B4A7 /* LaunchScreen.storyboard */,
+				195BC54226A888EE0054B4A7 /* Info.plist */,
+			);
+			path = Prizes;
+			sourceTree = "<group>";
+		};
+		195BC54A26A88A220054B4A7 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				195BC55E26A89D890054B4A7 /* Fonts */,
+				195BC55126A897850054B4A7 /* R.generated.swift */,
+				195BC53D26A888EE0054B4A7 /* Assets.xcassets */,
+				195BC55326A897B20054B4A7 /* TypeAlias.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		195BC55926A89A750054B4A7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				195BC55A26A89A980054B4A7 /* UITableView + Extensions.swift */,
+				195BC56526A89F4D0054B4A7 /* UIView + Extension.swift */,
+				195BC56726A8A2B50054B4A7 /* UITableViewCell + Extension.swift */,
+				197701E026A8CB4B000D66D0 /* UIStackView + Extension.swift */,
+				1995B74726A95FE60026D9C6 /* IdentificationCode.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		195BC55E26A89D890054B4A7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				195BC56326A89E670054B4A7 /* Aileron-Regular.otf */,
+				195BC55F26A89DF80054B4A7 /* Aileron-Bold.otf */,
+				195BC56126A89E4B0054B4A7 /* Aileron-Black.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		197701E826A8CC8B000D66D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				197701E226A8CBC2000D66D0 /* DataBaseManager.swift */,
+				195BC57726A8C5250054B4A7 /* Prize.swift */,
+				1995B74126A942EE0026D9C6 /* ChoosingPrize.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1995B74926A97DC90026D9C6 /* ListOfPrizes */ = {
+			isa = PBXGroup;
+			children = (
+				195BC54826A889E10054B4A7 /* PrizesListViewController.swift */,
+				195BC55526A898760054B4A7 /* PrizesView.swift */,
+				195BC55726A89A480054B4A7 /* PrizesTableViewCell.swift */,
+				195BC55C26A89B1F0054B4A7 /* PrizesViewModel.swift */,
+			);
+			path = ListOfPrizes;
+			sourceTree = "<group>";
+		};
+		1995B74A26A97DDF0026D9C6 /* AdditionOfNewPrize */ = {
+			isa = PBXGroup;
+			children = (
+				197701E426A8CBE9000D66D0 /* AddingNewPrizeViewController.swift */,
+				197701E626A8CC12000D66D0 /* AddingNewPrizeView.swift */,
+			);
+			path = AdditionOfNewPrize;
+			sourceTree = "<group>";
+		};
+		1995B74B26A97E1C0026D9C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1995B74326A946660026D9C6 /* WarningAlertView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38ED26747BBCF783CC916989 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C4C333D93A34C245CC9C87 /* Pods_Prizes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78046C9DE7CE8CDC61484384 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56FAEFCDBB96530C6C4B67BA /* Pods-Prizes.debug.xcconfig */,
+				A3F0B4D543904A03866BCDD1 /* Pods-Prizes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		195BC53026A888EC0054B4A7 /* Prizes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195BC54526A888EE0054B4A7 /* Build configuration list for PBXNativeTarget "Prizes" */;
+			buildPhases = (
+				09B0D37122ABB190FE868DF5 /* [CP] Check Pods Manifest.lock */,
+				195BC55026A897330054B4A7 /* RSwift */,
+				195BC52D26A888EC0054B4A7 /* Sources */,
+				195BC52E26A888EC0054B4A7 /* Frameworks */,
+				195BC52F26A888EC0054B4A7 /* Resources */,
+				D4C6E50B2BDFAB0565B29397 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prizes;
+			productName = Prizes;
+			productReference = 195BC53126A888EC0054B4A7 /* Prizes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		195BC52926A888EC0054B4A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					195BC53026A888EC0054B4A7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 195BC52C26A888EC0054B4A7 /* Build configuration list for PBXProject "Prizes" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 195BC52826A888EC0054B4A7;
+			productRefGroup = 195BC53226A888EC0054B4A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				195BC53026A888EC0054B4A7 /* Prizes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		195BC52F26A888EC0054B4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195BC56226A89E4B0054B4A7 /* Aileron-Black.otf in Resources */,
+				195BC56026A89DF80054B4A7 /* Aileron-Bold.otf in Resources */,
+				195BC54126A888EE0054B4A7 /* LaunchScreen.storyboard in Resources */,
+				195BC53E26A888EE0054B4A7 /* Assets.xcassets in Resources */,
+				195BC56426A89E670054B4A7 /* Aileron-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09B0D37122ABB190FE868DF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prizes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		195BC55026A897330054B4A7 /* RSwift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = RSwift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		D4C6E50B2BDFAB0565B29397 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prizes/Pods-Prizes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prizes/Pods-Prizes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Prizes/Pods-Prizes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		195BC52D26A888EC0054B4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1995B74826A95FE60026D9C6 /* IdentificationCode.swift in Sources */,
+				1995B74426A946660026D9C6 /* WarningAlertView.swift in Sources */,
+				195BC57826A8C5250054B4A7 /* Prize.swift in Sources */,
+				195BC56626A89F4D0054B4A7 /* UIView + Extension.swift in Sources */,
+				1995B74226A942EE0026D9C6 /* ChoosingPrize.swift in Sources */,
+				197701E126A8CB4B000D66D0 /* UIStackView + Extension.swift in Sources */,
+				195BC53526A888EC0054B4A7 /* AppDelegate.swift in Sources */,
+				197701E326A8CBC2000D66D0 /* DataBaseManager.swift in Sources */,
+				195BC54926A889E10054B4A7 /* PrizesListViewController.swift in Sources */,
+				195BC53726A888EC0054B4A7 /* SceneDelegate.swift in Sources */,
+				195BC55826A89A480054B4A7 /* PrizesTableViewCell.swift in Sources */,
+				195BC55626A898760054B4A7 /* PrizesView.swift in Sources */,
+				197701E726A8CC12000D66D0 /* AddingNewPrizeView.swift in Sources */,
+				195BC55226A897850054B4A7 /* R.generated.swift in Sources */,
+				195BC55426A897B20054B4A7 /* TypeAlias.swift in Sources */,
+				195BC55B26A89A980054B4A7 /* UITableView + Extensions.swift in Sources */,
+				195BC55D26A89B1F0054B4A7 /* PrizesViewModel.swift in Sources */,
+				195BC56826A8A2B50054B4A7 /* UITableViewCell + Extension.swift in Sources */,
+				197701E526A8CBE9000D66D0 /* AddingNewPrizeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		195BC53F26A888EE0054B4A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195BC54026A888EE0054B4A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		195BC54326A888EE0054B4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		195BC54426A888EE0054B4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		195BC54626A888EE0054B4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FAEFCDBB96530C6C4B67BA /* Pods-Prizes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59L78U6PW8;
+				INFOPLIST_FILE = Prizes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = unit.Prizes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		195BC54726A888EE0054B4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F0B4D543904A03866BCDD1 /* Pods-Prizes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59L78U6PW8;
+				INFOPLIST_FILE = Prizes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = unit.Prizes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		195BC52C26A888EC0054B4A7 /* Build configuration list for PBXProject "Prizes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195BC54326A888EE0054B4A7 /* Debug */,
+				195BC54426A888EE0054B4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195BC54526A888EE0054B4A7 /* Build configuration list for PBXNativeTarget "Prizes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195BC54626A888EE0054B4A7 /* Debug */,
+				195BC54726A888EE0054B4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 195BC52926A888EC0054B4A7 /* Project object */;
+}
